@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>Inscription</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mine.css">
+
 
 </head>
 
 <body>
-    <form >
         <div class="form-group">
-    <img src="../images/National-Geographic-logo.png" alt="pic not found" width="100" class="logo"><br>
-    <a href="connexion.html"><button class="btn btn-primary">Connexion</button></a><br>
-    <a href="index.html"><button class="btn btn-secondary">Home</button></a><br>
-    <h4 class="attribut">Nom : <input type="text" class="form-control" placeholder="Nom"><br></h4>
-    <h4 class="attribut">Prenom : <input type="text" class="form-control" placeholder="Prenom"><br></h4>
-    <h4 class="attribut">Num Tel : <input type="number" class="form-control"placeholder="00000000"><br></h4>
-    <div class="form-check">
-    <h4 class="attribut">Genre</h4>: <input type="radio" name="genre" value="male" class="form-check-input"> male
-        <input type="radio" name="gender" value="female" class="form-check-input"> female
-        <input type="radio" name="gender" value="male" class="form-check-input"> autre </div>
-    <h4 class="attribut">E-mail : <input type="email" class="form-control" placeholder="blablabla@blabla.com"><br></h4>
-    <h4 class="attribut">Date de naissance : <input type="date" id="date" class="form-control"><br></h4>
-    <h4 class="attribut">Nationalité : <select name="Nationalité" id="Nationalité" class="form-control">
-            <option value="" selected>-----</option>
-            <option value="Tunisienne">Tunisienne</option>
-            <option value="Algerienne">Algerienne</option>
-            <option value="Marocainne">Marocainne</option>
-            <option value="Lybienne">Lybienne</option>
-            <option value="Egyptienne">Egyptienne</option>
-        </select><br></h4>
-        <div class="form-check">
-    <h4 class="attribut">Interet : <br>
-        <input type="checkbox" value="livres" class="form-check-input">livres<br>
-        <input type="checkbox" value="music" class="form-check-input">music<br>
-        <input type="checkbox" value="sport" class="form-check-input">sport<br>
-        <input type="checkbox" value="films" class="form-check-input">films<br>
-        <input type="checkbox" value="theatre" class="form-check-input">theatre<br></h4>
-    </div>
-    <h4 class="attribut">Mot de passe : <input type="password" class="form-control" placeholder="password"><br></h4>
-    <h4 class="attribut">Veif Mot de passe : <input type="password" class="form-control" placeholder="password"><br></h4>
-</div>
-    <input type="submit" name="submit" class="btn btn-success">
-    <input type="reset" name="reset" class="btn btn-warning">
-</form>
-
+            <div class="tete">
+            <img src="../images/National-Geographic-logo.png" alt="pic not found" width="100" class="logo"><br>
+            <a href="connexion.html"><button class="btn btn-primary">Connexion</button></a>
+            <a href="index.html"><button class="btn btn-secondary"> Home </button></a><br>
+        </div>
+            <h4 class="attribut">Nom : <input type="text" class="form-control" placeholder="Nom"><br></h4>
+            <h4 class="attribut">Prenom : <input type="text" class="form-control" placeholder="Prenom"><br></h4>
+            <h4 class="attribut">Num Tel : <input type="number" class="form-control" placeholder="00000000"><br></h4>
+            <h4 class="attribut">Genre: <input type="radio" name="genre" value="male"> male
+                <input type="radio" name="gender" value="female"> female
+                <input type="radio" name="gender" value="male"> autre</h4>
+            <h4 class="attribut">E-mail : <input type="email" class="form-control" placeholder="blablabla@blabla.com"><br></h4>
+            <h4 class="attribut">Date de naissance : <input type="date" id="date" class="form-control"><br></h4>
+            <h4 class="attribut">Nationalité : <select name="Nationalité" id="Nationalité">
+                    <option value="" selected>-----</option>
+                    <option value="Tunisienne">Tunisienne</option>
+                    <option value="Algerienne">Algerienne</option>
+                    <option value="Marocainne">Marocainne</option>
+                    <option value="Lybienne">Lybienne</option>
+                    <option value="Egyptienne">Egyptienne</option>
+                </select><br></h4>
+            <div class="form-check">
+                <h4 class="attribut">Interet : <br>
+                    <input type="checkbox" value="livres" class="form-check-input">livres<br>
+                    <input type="checkbox" value="music" class="form-check-input">music<br>
+                    <input type="checkbox" value="sport" class="form-check-input">sport<br>
+                    <input type="checkbox" value="films" class="form-check-input">films<br>
+                    <input type="checkbox" value="theatre" class="form-check-input">theatre<br></h4>
+            </div>
+            <h4 class="attribut">Mot de passe : <input type="password" class="form-control" placeholder="password"><br>
+            </h4>
+            <h4 class="attribut">Veif Mot de passe : <input type="password" class="form-control"
+                    placeholder="password"><br></h4>
+        </div>
+        <input type="submit" name="submit" class="btn btn-success">
+        <input type="reset" name="reset" class="btn btn-warning">
+    
 </body>
 
 </html>
