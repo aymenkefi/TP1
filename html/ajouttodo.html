@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>Ajout to do</title>
@@ -7,17 +8,23 @@
     <link rel="stylesheet" href="../css/mine.css">
 
 </head>
-<body>
-    <div class="tete">
-    <img src="../images/National-Geographic-logo.png" alt="pic not found" width="100" class="logo"><br>
-    <a href="connexion.html"><button class="btn btn-danger" >Deconnexion</button></a><br>
-    <a href="home.html"><button class="btn btn-secondary">Accueil</button></a><br>
-    </div>
-    <p><h3> Description : <br> </h3> blablablablablablablablablablablablablablablabla <br>
-        blablablablablablablablablablablablablablablablablablablablablablabla <br></p>
-<input type="text" name="Description" class="input"><br>
-<input type="submit" name="submit" class="btn btn-success">
-<input type="reset" name="reset" class="btn btn-warning">
 
+<body >
+    <div class="tete">
+        <img src="../images/National-Geographic-logo.png" alt="pic not found" width="100" class="logo"><br>
+        <a href="home.html"><button class="btn btn-secondary">Accueil</button></a>
+        <a href="connexion.html"><button class="btn btn-danger">Deconnexion</button></a>
+    </div>
+    <div class="bd">
+    <br><br><br>
+    <form action="../php/atd.php" method="post">
+        <p>
+            <h3> Description : <br> </h3>
+            <input type="text" name="des" class="form-control"><br>
+            <input type="submit" name="submit" class="btn btn-success">
+            <input type="reset" name="reset" class="btn btn-warning">
+    </form>
+</div>
 </body>
+
 </html>
